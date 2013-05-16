@@ -1,0 +1,23 @@
+<mount>
+	<mount-name>/<%= @client %>.radio</mount-name>
+	<stream-name>The <%= @client %> Audio Stream</stream-name>
+
+	<!--
+	<password>q1w2e3</password>
+	-->
+
+	<max-listeners><%= @max_listener %></max-listeners>
+	<max-listeners-duration><%= @max_listener_duration %></max-listeners-duration>
+
+	<bitrate><%= @bitrate %></bitrate>
+	<mp3-metadata-interval>4096</mp3-metadata-interval>
+
+	<!-- Configuration of Listeners -->
+	<!--
+	<authentication type="htpasswd">
+		<option name="filename" value="/data/icecast2/auths/<%= @cliente %>"/>
+		<option name="allow_duplicate_users" value="1"/>
+	</authentication>
+	-->
+</mount>
+

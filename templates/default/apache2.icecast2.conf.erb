@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+   ServerName localhost
+   
+   ProxyRequests Off
+   ProxyPreserveHost On
+   
+   ProxyPassMatch ^/(.*)$ http://localhost:8000/$1 
+
+
+</VirtualHost>
+

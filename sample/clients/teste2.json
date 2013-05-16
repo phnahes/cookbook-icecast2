@@ -1,0 +1,11 @@
+{
+	"name" : "teste2",
+	"port" : "8001",
+	"logLevel" : "3",
+	"numClients" : "100",
+	"sourcePass" : "sourcepass123",
+	"adminPass" : "adminpass123",
+	"maxListener" : "100",
+	"maxListenerDuration" : "3600",
+	"bitrate" : "56"
+}
